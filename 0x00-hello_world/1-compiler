@@ -1,2 +1,2 @@
 #!/bin/bash
-CFILE=first.c | gcc first.c -o first.o
+CFILE=first.c | gcc -C first.c -o first.o
