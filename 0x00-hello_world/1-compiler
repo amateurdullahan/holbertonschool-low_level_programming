@@ -1,2 +1,2 @@
 #!/bin/bash
-CFILE=first.c | gcc -C first.c -o first.o
+CFILE=second.c | gcc -c second.c -o second.o
