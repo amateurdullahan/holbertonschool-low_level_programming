@@ -1,2 +1,2 @@
 #!/bin/bash
-CFILE=second.c | gcc -c second.c -o second.o
+export CFILE=second.c | gcc -c $CFILE -o second.o
