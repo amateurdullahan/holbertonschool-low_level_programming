@@ -13,7 +13,7 @@ int main(void)
   while (letter <= 'z') /*while letter is less than or equal to ascii value of 'z'*/
     {
       putchar(letter); /*print the letter*/
-      letter ++; /*the value of letter increases incrementally*/
+      letter++; /*the value of letter increases incrementally*/
     }
   putchar('\n'); /*adds a newline after the while statement finishes*/
   return (0); /*returns value of 0*/
