@@ -4,7 +4,7 @@
 /* more headers goes there */
 
 /**
- * int main(void) - prints random numbers
+ * main - prints random numbers
  * 
  * Description: This function gives the variable n a random 
  * value and then determines whether that value is less 
@@ -13,7 +13,6 @@
  *
  * Return: Value is Zero
  */
-
 int main(void)
 {
   int n;

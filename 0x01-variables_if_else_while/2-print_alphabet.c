@@ -1,15 +1,14 @@
 #include <stdio.h>
 
 /**
- * main(void) - description
+ * main - description
  *
  * Description: This function uses the ascii value and
  * that char is an integer to print the alphabet
  * With each increment it moves to the next letter in the alphabet until it
  * reaches z, upon which it prints z and then a newline
- * Return: vaule is 0 which is positive
+ * Return: value is 0 which is positive
  */
-
 int main(void)
 {
   char letter = 'a'; /*asigns the ascii value of 'a' to letter*/

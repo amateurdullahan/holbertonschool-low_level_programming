@@ -1,17 +1,18 @@
 #include <stdio.h>
 
 /**
- *Main prints lowercase alphabet except q and e
+ * main - description
  *
- *returns 0
+ * Description: main prints lowercase alphabet except q and e
+ *
+ * Return: value is 0 which is positive
  */
-
 int main(void)
 {
   char l = 'a';
-  while(l <= 'z')
+  while (l <= 'z')
     {
-      if(l != 'e' && l != 'q')
+      if (l != 'e' && l != 'q')
       {
 	putchar(l);
 	l++;
