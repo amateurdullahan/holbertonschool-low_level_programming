@@ -1,9 +1,13 @@
 #include <stdio.h>
 
 /**
- *This function uses the ascii value of letters to print the alphabet
- *Each increment moves to the next letter in the alphabet until it
- *reaches z
+ * main(void) - prints alphabets
+ *
+ * This function uses the ascii value of letters to print the alphabet
+ * Each increment moves to the next letter in the alphabet until it
+ * reaches z
+ *
+ * Return: value is 0 which is positive
  */
 
 int main(void)

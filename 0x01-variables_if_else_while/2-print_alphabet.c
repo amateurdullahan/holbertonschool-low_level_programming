@@ -1,10 +1,13 @@
 #include <stdio.h>
 
 /**
- *This function uses the ascii value and the fact that char is an integer to print the
- *alphabet. With each increment it moves to the next letter in the alphabet until it
- *reaches z, upon which it prints z and then a newline and then finally returning
- *0
+ * main(void) - description
+ *
+ * Description: This function uses the ascii value and
+ * that char is an integer to print the alphabet
+ * With each increment it moves to the next letter in the alphabet until it
+ * reaches z, upon which it prints z and then a newline
+ * Return: vaule is 0 which is positive
  */
 
 int main(void)

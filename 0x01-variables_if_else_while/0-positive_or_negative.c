@@ -3,11 +3,17 @@
 #include <stdio.h>
 /* more headers goes there */
 
-/** 
- *This function gives the variable n a random value and then
- *determines whether that value is less than, equal to or greater
- *than zero, and prints that into the terminal
+/**
+ * int main(void) - prints random numbers
+ * 
+ * Description: This function gives the variable n a random 
+ * value and then determines whether that value is less 
+ * than, equal to or greater than zero and 
+ * prints that into the terminal
+ *
+ * Return: Value is Zero
  */
+
 int main(void)
 {
   int n;

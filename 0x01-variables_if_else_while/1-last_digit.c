@@ -4,10 +4,15 @@
 
 /* betty style doc for function main goes there */
 /**
- *function generates a random number whose value is stored in
- *the variable 'n' which is then checked to see if its value is greater
- *than 5 or equal to 0 or less than 6 but not 0 and then prints statements
- *to that effect
+ * Main - description
+ *
+ * Description: function generates a random number whose value 
+ * is stored in the variable 'n' which is then checked 
+ * to see if its value is greater than 5 or
+ * equal to 0 or less than 6 but not 0 and then prints statements
+ * to that effect
+ *
+ * Return: value is 0 which is positive
  */
 
 int main(void) /*beginning of main*/
