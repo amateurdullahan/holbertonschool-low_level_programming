@@ -1,14 +1,30 @@
 #include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
 /* more headers goes there */
 
-/* betty style doc for function main goes there */
+/** 
+ *This function gives the variable n a random value and then
+ *determines whether that value is less than, equal to or greater
+ *than zero, and prints that into the terminal
+ */
 int main(void)
 {
   int n;
 
   srand(time(0));
-  n = rand() - RAND_MAX / 2;
-  /* your code goes there */
+  n = rand() - RAND_MAX / 2; /*Code I do not need to touch*/
+  if (n > 0) /*determining if n is positive, negative or equal to zero*/
+    {
+      printf("%d is positive\n", n);
+    }
+  else if (n < 0)
+    {
+      printf("%d is negative\n", n);
+    }
+  else
+    {
+      printf("%d is zero\n", n);
+    }
   return (0);
 }
