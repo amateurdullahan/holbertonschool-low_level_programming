@@ -10,12 +10,12 @@
  */
 int main(void) /* description: this is main */
 {
-  int n = 0;
-  while (n < 10)
-    {
-      printf("%d", n);
-      n++;
-    }
-  putchar('\n');
-  return (0);
+int n = 0;
+while (n < 10)
+{
+printf("%d", n);
+n++;
+}
+putchar('\n');
+return (0);
 }

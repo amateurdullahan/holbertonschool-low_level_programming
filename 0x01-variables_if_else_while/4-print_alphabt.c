@@ -9,19 +9,19 @@
  */
 int main(void)
 {
-  char l = 'a';
-  while (l <= 'z')
-    {
-      if (l != 'e' && l != 'q')
-      {
-	putchar(l);
-	l++;
-      }
-      else
-	{
-	  l++;
-	}
-    }
-  putchar('\n');
-  return (0);
+char l = 'a';
+while (l <= 'z')
+{
+if (l != 'e' && l != 'q')
+{
+putchar(l);
+l++;
+}
+else
+{
+l++;
+}
+}
+putchar('\n');
+return (0);
 }

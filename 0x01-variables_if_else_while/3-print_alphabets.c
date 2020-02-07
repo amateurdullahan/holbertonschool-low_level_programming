@@ -11,19 +11,19 @@
  */
 int main(void)
 {
-  char lower = 'a';
-  char upper = 'A';
+char lower = 'a';
+char upper = 'A';
 
-  while (lower <= 'z')
-    {
-      putchar(lower);
-      lower++;
-    }
-  while (upper <= 'Z')
-    {
-      putchar(upper);
-      upper++;
-    }
-  putchar('\n'); /*adds a newline after the while statements finishe*/
-  return (0);
+while (lower <= 'z')
+{
+putchar(lower);
+lower++;
+}
+while (upper <= 'Z')
+{
+putchar(upper);
+upper++;
+}
+putchar('\n'); /*adds a newline after the while statements finishe*/
+return (0);
 }
