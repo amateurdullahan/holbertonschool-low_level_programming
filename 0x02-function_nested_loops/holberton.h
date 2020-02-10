@@ -87,3 +87,12 @@ int print_sign(int n)
     }
   _putchar('\n');
 }
+
+int _abs(int ab)
+{
+  if (ab < 0)
+    {
+      ab = -(ab);
+    }
+  return (ab);
+}
