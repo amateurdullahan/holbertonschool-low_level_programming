@@ -22,3 +22,32 @@ void print_alphabet(void)
     }
   _putchar('\n');
 }
+
+void print_alphabet_x10(void)
+{
+  int c = 0;
+  char a;
+  while (c < 10)
+    {
+      char a = 'a';
+      while (a <= 'z')
+	{
+	  _putchar(a);
+	  a++;
+	}
+      c++;
+      _putchar('\n');
+    }
+}
+
+int _islower(int c)
+{
+  if (c >= 'a' && c <= 'z')
+    {
+      return (1);
+    }
+  else 
+    {
+      return (0);
+    }
+}
