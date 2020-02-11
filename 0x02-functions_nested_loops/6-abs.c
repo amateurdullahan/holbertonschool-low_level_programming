@@ -1,14 +1,14 @@
 #include "holberton.h"
-#include <stdio.h>
 /**
  * main - check the code for Holberton School students.
  *
  * Return: Always 0.
  */
-int _abs(int);
-
-int main(void)
+int _abs(int ab)
 {
-  
-  return (0);
+  if (ab < 0)
+    {
+      ab = -(ab);
+    }
+  return (ab);
 }
