@@ -1,15 +1,18 @@
 #include "holberton.h"
 
-/**
- * main - void
- *
- * Return: Always 0
- */
-
-void print_alphabet_x10(void);
-
-int main(void)
+void print_alphabet_x10(void)
 {
-  print_alphabet_x10();
-  return (0);
+  int c = 0;
+  char a;
+  while (c < 10)
+    {
+      a = 'a';
+      while (a <= 'z')
+	{
+          _putchar(a);
+          a++;
+	}
+      c++;
+      _putchar('\n');
+    }
 }
