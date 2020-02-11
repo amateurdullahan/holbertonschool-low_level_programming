@@ -1,0 +1,19 @@
+#include "holberton.h"
+
+/**
+ * main - void
+ *
+ * Return: 0
+ */
+
+int _islower(int c);
+
+int main(void)
+{
+  int r;
+  r = _islower('H');
+  _putchar(r + '0');
+
+
+  return (0);
+}

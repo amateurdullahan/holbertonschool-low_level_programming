@@ -1,0 +1,15 @@
+#include "holberton.h"
+
+/**
+ * main - void
+ *
+ * Return: 0
+ */
+
+int print_sign(int n);
+
+int main(void)
+{
+
+  return (0);
+}

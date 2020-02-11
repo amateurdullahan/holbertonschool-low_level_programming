@@ -1,0 +1,16 @@
+#include "holberton.h"
+
+/**
+ * main - void
+ *
+ * Description: a description for the program
+ *
+ * return - 0
+ */
+
+int main(void)
+{
+
+_putchar('Holberton');
+ return(0);
+}
