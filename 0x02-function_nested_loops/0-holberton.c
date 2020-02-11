@@ -3,14 +3,11 @@
 /**
  * main - void
  *
- * Description: a description for the program
- *
- * return - 0
+ * Return: 0
  */
 
 int main(void)
 {
-
 _putchar('H');
 _putchar('o');
 _putchar('l');
