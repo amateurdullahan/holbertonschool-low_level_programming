@@ -24,9 +24,8 @@ int main(void)
       if((p % 2) == 0 && p <= 4000000)
 	{
 	  e = e + p;
-	  printf("%ld, ", e);
 	}
     }
-  printf("\n");
+  printf("%ld\n", e);
   return (0);
 }
