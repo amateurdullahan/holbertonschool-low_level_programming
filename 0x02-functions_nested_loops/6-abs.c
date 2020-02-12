@@ -6,9 +6,9 @@
  */
 int _abs(int ab)
 {
-  if (ab < 0)
-    {
-      ab = -(ab);
-    }
-  return (ab);
+if (ab < 0)
+{
+ab = -(ab);
+}
+return (ab);
 }
