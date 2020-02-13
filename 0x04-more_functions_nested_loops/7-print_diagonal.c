@@ -8,7 +8,7 @@
 
 void print_diagonal(int n)
 {
-  int c;
+  int c = 0;
   int s;
   if (n <= 0)
     {
@@ -16,16 +16,16 @@ void print_diagonal(int n)
       return;
     }
   else
-  for (c = 0; c < n; c++)
+  while (c < n)
     {
+      s = 0;
       _putchar(92);
       _putchar('\n');
-      if (c != n)
+      while (s < c)
 	{
-	  for(s = 0; s <= c; s++)
-	    {
-	      _putchar(' ');
-	    }
+	  _putchar(' ');
+	  s++;
 	}
+      c++;
     }
 }
