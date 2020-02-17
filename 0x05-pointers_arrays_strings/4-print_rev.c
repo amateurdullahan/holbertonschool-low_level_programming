@@ -14,6 +14,9 @@ void print_rev(char *s)
   for(c = s['\0']; s[c] >= 0; c--)
     {
       b = s[c];
+      if (s[c] == '\"')
+	break;      
+      else
       _putchar(b);
     }
   _putchar('\n');
