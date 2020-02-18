@@ -1,9 +1,9 @@
 #include "holberton.h"
 
 /**
- * main - swap var
+ * swap_int - swappin ints
  *
- * Return: nothin bro
+ * Return: values of a and b switched
  */
 
 void swap_int(int *a, int *b)

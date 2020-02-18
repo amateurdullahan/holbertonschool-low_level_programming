@@ -1,9 +1,9 @@
 #include "holberton.h"
 
 /**
- * main - c
- *
- * Return: no thing
+ * _puts - prints string
+ * 
+ * Return: void
  */
 
 void _puts(char *str)
