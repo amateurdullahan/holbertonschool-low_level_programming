@@ -21,4 +21,4 @@ void puts_half(char *str);
 
 void print_array(int *a, int n);
 
-#endif /* _HOLBERTON_H_
+#endif /* HOLBERTON_H */
