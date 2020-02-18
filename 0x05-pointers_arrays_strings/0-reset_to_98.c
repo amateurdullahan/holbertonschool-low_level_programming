@@ -1,9 +1,7 @@
 #include "holberton.h"
 
 /**
- * main - descrip
- *
- * Return: int *n
+ * reset_to_98 - short description
  */
 
 void reset_to_98(int *n)
