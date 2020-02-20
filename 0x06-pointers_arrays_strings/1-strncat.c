@@ -1,37 +1,29 @@
 #include "holberton.h"
-#include <unistd.h>
 
-int _putchar(char c);
+/**
+ * strncat - does stuff
+ *
+ * Return: pointer to dest
+ */
 
 char *_strncat(char *dest, char *src, int n)
 {
-  int d;
-  int s;
+  int c;
+  int l;
 
-  for(d = 0; dest[d] != '\0'; d++)
+  for (c = 0; dest[c] != '\0'; c++)
     {
-      _putchar(dest[d]);
     }
-  for(s = 0; src[s] < n; s++)
+
+  for (l = 0; l < n && src[l] != '\0'; l++, c++)
     {
-      if (src[s] != '\0')
-	{
-      _putchar(src[s]);
-	}
-      else if (src[s] == '\0')
-	{
-	  _putchar('\0');
-	  break;
-	}
+      dest[c] = src[l];
     }
-  /* if(src[s] < n)
+    if (dest[c] != '\0')
     {
-      _putchar('\0');
-      }*/
+      c++;
+      dest[c] = '\0';
+    }
+
   return (dest);
-}
-
-int _putchar(char c)
-{
-  return (write(1, &c, 1));
 }
