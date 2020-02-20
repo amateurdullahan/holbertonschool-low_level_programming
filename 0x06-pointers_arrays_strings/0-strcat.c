@@ -1,13 +1,10 @@
 #include "holberton.h"
-#include <unistd.h>
 
 /**
  * strcat - does stuff
  *
  * Return: pointer to dest
  */
-
-int _putchar(char c);
 
 char *_strcat(char *dest, char *src)
 {
@@ -16,17 +13,16 @@ char *_strcat(char *dest, char *src)
 
   for (c = 0; dest[c] != '\0'; c++)
     {
-      _putchar(dest[c]);
     }
-  for (l = 0; src[l] != '\0'; l++)
+  l = 0;
+  while (src[l] != '\0')
     {
-      _putchar(src[l]);
+      dest[c] = src[l];
+      l++;
+      c++;
     }
-  _putchar('\0');
-  return (dest);
-}
+  c++;
+  dest[c] = '\0';
 
-int _putchar(char c)
-{
-  return (write(1, &c, 1));
+  return (dest);
 }
