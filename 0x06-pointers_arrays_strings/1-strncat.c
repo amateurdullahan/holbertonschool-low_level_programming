@@ -3,6 +3,9 @@
 /**
  * strncat - does stuff
  *
+ * @dest - dest
+ * @src - src
+ * @n - int
  * Return: pointer to dest
  */
 
