@@ -10,7 +10,13 @@
 
 char *infinite_add(char *n1, char *n2, char *r, int size_r)
 {
-
-
-  return (0);
+  if ((n1 + n2) > size_r)
+    {
+      return (0);
+    }
+  else
+    {
+      r = (n1 + n2);
+      return (r);
+    }
 }
