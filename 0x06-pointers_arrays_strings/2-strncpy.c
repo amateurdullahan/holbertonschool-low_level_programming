@@ -1,5 +1,3 @@
-#include "holberton.h"
-
 /**
  * *_strncpy - dont copy that floppy 
  * @dest - its the destination

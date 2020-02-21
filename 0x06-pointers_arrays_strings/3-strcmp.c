@@ -1,5 +1,3 @@
-#Include "holberton.h"
-
 /**
  * _strcmp - compares strings
  *
