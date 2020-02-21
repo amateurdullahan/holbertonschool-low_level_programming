@@ -1,49 +1,29 @@
 #include "holberton.h"
 
 /**
- * _atoi - print numbers in string
+ * _atoi - converts a string to an integer
+ * @s: string to convert
  *
- * Return: noting man
+ * Return: value of integer
  */
 
 int _atoi(char *s)
 {
-  int l;
-  int val = 0;
-  int pos = 0;
-  int neg = 0;
+int i, j, n, m;
 
-  for(l = 0; s[l] != '\0'; l++)
-    {
-      if(s[l] == '+')
-	{
-	  pos++;
-	}
-      if(s[l] == '-')
-	{
-	  neg++;
-	}
-      if(s[l] >= '0' && s[l] <= '9')
-	{
-	  if (pos > neg)
-	    {
-	      continue;
-	    }
-	  else if (neg >= pos)
-	    {
-	      _putchar('-');
-	    }
-	  while (s[l] >= '0' && s[l] <= '9')
-	    {
-	      _putchar(s[l]);
-	      l++;
-	    }
-	  break;
-	}
-      else
-	{
-	  return (0);
-	}
-    }
-  _putchar('\n');
+i = n = 0;
+m = 1;
+while ((*(s + i) < '0' || *(s + i) > '9') && (*(s + i) != '\0'))
+{
+if (*(s + i) == '-')
+m *= -1;
+i++;
+}
+j = i;
+while ((*(s + j) >= '0') && (*(s + j) <= '9'))
+{
+n = n * 10 + m * (*(s + j) - '0');
+j++;
+}
+return (n);
 }
