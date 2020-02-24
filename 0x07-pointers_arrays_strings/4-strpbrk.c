@@ -8,4 +8,17 @@
 
 char *_strpbrk(char *s, char *accept)
 {
+int c, d;
+
+for (c = 0; s[c]; c++)
+{
+for (d = 0; accept[d]; d++)
+{
+if (accept[d] == s[c])
+{
+return (&s[c]);
+}
+}
+}
+return (0);
 }
