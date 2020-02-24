@@ -1,19 +1,19 @@
 /**
  * *_memcpy - copy n amount of memory from src to dest
- * @dest - destination string
- * @src - source string
- * @n - length to copy
+ * @dest: destination string
+ * @src: source string
+ * @n: length to copy
  *
  * Return: modified dest string
  */
 
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
-  unsigned int i;
+unsigned int i;
 
-  for (i = 0; i < n; i++)
-    {
-      dest[i] = src[i];
-    }
-  return (dest);
+for (i = 0; i < n; i++)
+{
+dest[i] = src[i];
+}
+return (dest);
 }
