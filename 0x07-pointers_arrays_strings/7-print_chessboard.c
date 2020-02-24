@@ -2,20 +2,20 @@
 
 /**
  * print_chessboard - prints a chessboard
- * 
+ * @a: array of chess pieces
+ *
  */
 
 void print_chessboard(char (*a)[8])
 {
-  int c, r;
-  
+int c, r;
 
-  for(r = 0; a[r][c]; r++) 
-    {
-      for(c = 0; a[r][c]; c++)
-	{
-	  _putchar(a[r][c]);
-	}
-    }
-
+for (r = 0; r < 8; r++)
+{
+for (c = 0; c < 8; c++)
+{
+_putchar(a[r][c]);
+}
+_putchar('\n');
+}
 }
