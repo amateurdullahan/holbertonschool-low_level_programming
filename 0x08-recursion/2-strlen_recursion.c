@@ -1,5 +1,3 @@
-#include "holberton.h"
-
 /**
  * _strlen_recursion - return length of string
  * @s: string to return length of
@@ -9,6 +7,10 @@
 
 int _strlen_recursion(char *s)
 {
-
-  return (n);
+if (!*s)
+{
+return (0);
+}
+else
+return (1 + _strlen_recursion(s + 1));
 }
