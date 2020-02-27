@@ -19,3 +19,5 @@ int is_palindrome(char *s);
 int sqrtcheck(int c, int base);
 
 int checker(int c, int prime);
+
+int wildcmp(char *s1, char *s2);
