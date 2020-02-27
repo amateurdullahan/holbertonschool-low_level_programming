@@ -6,7 +6,7 @@
  * Return: 1 if prime, 0 if not
  */
 
-int checker(c, prime)
+int checker(int c, int prime)
 {
 if (prime % c == 0 || prime < 2)
 {
@@ -20,6 +20,7 @@ else if (prime > c)
 {
 return (checker(c + 1, prime));
 }
+return (0);
 }
 
 /**

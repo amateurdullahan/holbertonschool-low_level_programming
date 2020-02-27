@@ -8,7 +8,7 @@
  * Return: stuff
  */
 
-int sqrtcheck(c, base)
+int sqrtcheck(int c, int base)
 {
 if ((c *c) == base)
 {
