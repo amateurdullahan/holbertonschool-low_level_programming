@@ -1,7 +1,7 @@
 /**
  * checker - checks primes
- * @c - number to divide in
- * @prime - number divided into
+ * @c: number to divide in
+ * @prime: number divided into
  *
  * Return: 1 if prime, 0 if not
  */
@@ -32,5 +32,5 @@ return (0);
 
 int is_prime_number(int n)
 {
-  return (checker(2, n));
+return (checker(2, n));
 }

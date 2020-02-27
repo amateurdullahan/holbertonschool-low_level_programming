@@ -10,11 +10,11 @@
 
 int sqrtcheck(int c, int base)
 {
-if ((c *c) == base)
+if ((c * c) == base)
 {
 return (c);
 }
-if ((c *c) > base)
+if ((c * c) > base)
 {
 return (-1);
 }
