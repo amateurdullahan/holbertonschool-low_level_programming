@@ -1,11 +1,24 @@
 
 /**
  * sqrtcheck - checks for square root
- * 
+ * @c: numbers to play with
+ * @base: base number
+ *
+ * Return: stuff
  */
 
-int sq
-
+int sqrtcheck(c, base)
+{
+if (c * c == base)
+{
+return (c);
+}
+if (c * c > base)
+{
+return (-1);
+}
+return (sqrtcheck(c + 1, base));
+}
 
 /**
  * _sqrt_recursion - return natural square root
@@ -16,5 +29,5 @@ int sq
 
 int _sqrt_recursion(int n)
 {
-  if (n == 0)
+return (sqrtcheck(1, n));
 }
