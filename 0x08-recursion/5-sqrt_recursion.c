@@ -7,13 +7,14 @@
  *
  * Return: stuff
  */
+
 int sqrtcheck(c, base)
 {
-if (c * c == base)
+if ((c *c) == base)
 {
 return (c);
 }
-if (c * c > base)
+if ((c *c) > base)
 {
 return (-1);
 }
