@@ -1,3 +1,12 @@
+
+/**
+ * sqrtcheck - checks for square root
+ * 
+ */
+
+int sq
+
+
 /**
  * _sqrt_recursion - return natural square root
  * @n: the aforementioned number
@@ -7,7 +16,5 @@
 
 int _sqrt_recursion(int n)
 {
-
-else
-return (-1);
+  if (n == 0)
 }
