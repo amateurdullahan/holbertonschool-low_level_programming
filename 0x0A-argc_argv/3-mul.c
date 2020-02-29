@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * main - muliply two arguments 
+ * main - muliply two arguments
  * @argc: arguement counter
  * @argv: pointer array of arguments
  *
@@ -12,15 +12,15 @@
 int main(int argc, char *argv[])
 {
 int a, b;
-a = atoi (argv[1]);
-b = atoi (argv[2]);
-  
+a = atoi(argv[1]);
+b = atoi(argv[2]);
+
 if (argc != 3)
 {
 printf("Error\n");
 return (1);
 }
 else
-printf("%d\n", (a * b));
+printf("%d\n", a *b);
 return (0);
 }
