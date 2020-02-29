@@ -8,8 +8,8 @@
  * Return: 0 which is positive
  */
 
-int main (int argc, char *argv)
+int main(int argc, char *argv[] __attribute__((unused)))
 {
-
-  return (0);
+printf("%d\n", argc);
+return (0);
 }
