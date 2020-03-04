@@ -16,7 +16,7 @@ int c, d;
 if (width <= 0 || height <= 0)
 return (NULL);
 
-grid = malloc(height * sizeof(int));
+ grid = (int **)malloc(height * sizeof(int**));
 
 if (grid == NULL)
 {
@@ -25,7 +25,7 @@ return (NULL);
 }
 for (c = 0; c < height; c++)
 {
-grid[c] = malloc(sizeof(int) * width);
+  grid[c] = (int*)malloc(sizeof(int*) * width);
 if (grid == NULL)
 {
 free(grid);
