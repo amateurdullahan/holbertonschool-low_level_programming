@@ -29,7 +29,7 @@ for (fl = 0; s1[fl] != '\0'; fl++)
 for (sl = 0; s2[sl] != '\0'; sl++)
 ;
 
-if (n > sl)
+if (n >= sl)
 {
 n = sl;
 }
