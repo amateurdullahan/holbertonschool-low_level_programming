@@ -50,5 +50,11 @@ for (sl = 0; sl < n; sl++)
 {
 cat[fl+sl] = s2[sl];
 }
+ if (cat == NULL)
+   {
+     free(cat);
+     return(NULL);
+   }
+else
 return (cat);
 }
