@@ -4,6 +4,7 @@
 
 /**
  * print_dog - prints out struct dog
+ * @d: the struct that contains doggo
  *
  * Return: nil if NULL
  */
