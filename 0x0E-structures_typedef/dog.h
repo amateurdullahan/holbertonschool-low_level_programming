@@ -3,6 +3,8 @@
 
 int _putchar(char c);
 
+int str_len(char *s);
+
 /**
  * struct dog - information on dog
  * @name: name of dog
