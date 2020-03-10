@@ -11,5 +11,10 @@
 
 dog_t *new_dog(char *name, float age, char *owner)
 {
-return;
+  /* dog_t *new_dog;
+  int c;*/
+if (name == NULL || owner == NULL)
+{
+return (NULL);
+}
 }
