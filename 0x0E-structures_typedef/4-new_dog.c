@@ -12,7 +12,7 @@ int str_len(char *s)
 {
 int c = 0;
 
-while (*s)
+while (s[c])
 {
 c++;
 }
