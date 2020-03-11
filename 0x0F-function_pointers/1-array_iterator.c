@@ -17,6 +17,10 @@ if (array == NULL)
 {
 return;
 }
+if (size == NULL)
+{
+return;
+}
 
 for (c = 0; c < size; c++)
 {
