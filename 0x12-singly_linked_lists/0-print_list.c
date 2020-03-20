@@ -17,11 +17,11 @@ while (h != NULL)
 {
 if (h->str == NULL)
 {
-printf("[0] (nil)\n");
+printf("[0] (nil)");
 ret++;
 }
 else
-printf("[%d] %s\n", h->len, h->str);
+printf("[%d] %s", h->len, h->str);
 ret++;
 h = h->next;
 }
