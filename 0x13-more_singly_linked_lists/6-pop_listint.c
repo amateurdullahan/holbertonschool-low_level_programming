@@ -12,17 +12,17 @@
 int pop_listint(listint_t **head)
 {
 listint_t *temp;
-int ret = 0;
+int n = 0;
 
-if (head == NULL)
+if (head == NULL || *head == NULL)
 {
-return (ret);
+return (n);
 }
 
 temp = *head;
-*head = temp->next
+ *head = temp->next;
 
-ret = temp->n;
+n = temp->n;
 free(temp);
-return (ret);
+return (n);
 }
