@@ -3,7 +3,10 @@
 #include <stdio.h>
 
 /**
+ * pop_listint - deletes head node and returns value inside
+ * @head: listint_t head
  *
+ * Return: value inside head
  */
 
 int pop_listint(listint_t **head)
@@ -17,11 +20,9 @@ return (ret);
 }
 
 temp = *head;
-temp->n = head->n;
-temp->next = head->next;
+*head = temp->next
 
 ret = temp->n;
-free(head);
-head = temp->next;
+free(temp);
 return (ret);
 }
