@@ -36,12 +36,12 @@ return (*head);
 
 while (idx > 0)
 {
-current = current->next;
 if (current == NULL)
 {
 free(new);
 return (NULL);
 }
+current = current->next;
 idx--;
 }
 new->next = current->next;
