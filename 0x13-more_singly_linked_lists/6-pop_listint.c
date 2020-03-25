@@ -20,7 +20,7 @@ return (n);
 }
 
 temp = *head;
- *head = temp->next;
+*head = temp->next;
 
 n = temp->n;
 free(temp);
