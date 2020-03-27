@@ -1,7 +1,7 @@
 #include "holberton.h"
 
 /**
- * binary_to_unit - convert binary stored in char string to unsigned int
+ * binary_to_uint - convert binary stored in char string to unsigned int
  * @b: const char b storing binary
  *
  * Return: converted unsigned int
@@ -16,7 +16,7 @@ if (b == NULL)
 return (0);
 }
 
-while (b[i+1])
+while (b[i + 1])
 {
 if (b[i] != '0' && b[i] != '1')
 {
