@@ -17,6 +17,6 @@ printf("%d\n", h->n);
 node++;
 h = h->next;
 }
-  
+
 return (node);
 }
