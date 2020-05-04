@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * add_dnodeint - add a node to the head of the list
+ * add_dnodeint_end - add a node to the head of the list
  * @head: doubly linked list
  * @n: n to add to new node
  *
@@ -23,6 +23,12 @@ return (NULL);
 }
 new->n = n;
 new->next = NULL;
+if (*head == NULL)
+{
+new->prev = NULL;
+*head = new;
+return (new);
+}
 temp = *head;
 while (temp->next != NULL)
 {
