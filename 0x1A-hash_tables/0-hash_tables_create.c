@@ -9,9 +9,9 @@
 
 hash_table_t *hash_table_create(unsigned long int size)
 {
-*hash_table_t new = malloc(size of(char) * size);
+hash_table_t *new = malloc(sizeof(char) * size);
 if (new == NULL)
 return (NULL);
-new.size = size;
+new->size = size;
 return (new);
 }
