@@ -9,7 +9,7 @@
 void hash_table_print(const hash_table_t *ht)
 {
 hash_node_t *mauve;
-unsigned long int idx = 0, check = 0;
+unsigned long int idx = 0, comma = 0;
 
 if (ht == NULL)
 return;
@@ -19,11 +19,11 @@ for (idx = 0; idx < ht->size; idx++)
 mauve = ht->array[idx];
 while (mauve != NULL)
 {
-if (check)
+if (comma > 0)
 printf(", ");
 printf("\'%s\': ", mauve->key);
 printf("\'%s\'", mauve->value);
-check = 1;
+comma = 1;
 mauve = mauve->next;
 }
 }
