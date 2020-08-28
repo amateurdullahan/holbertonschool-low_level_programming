@@ -21,7 +21,7 @@ while (c <= end)
 {
 mid = (c + end) / 2;
 printf("Searching in array: ");
-for (ct = c; sr < end ; ct++)
+for (ct = c; ct < end ; ct++)
 printf("%d\n", array[ct]);
 printf("%d\n", array[ct]);
 if (array[mid] < value)
